@@ -1,0 +1,47 @@
+Multichar_Symbols
+
+%<n%>                ! Nombre
+%<clf%>		     ! Clasificador
+%<sg%>		     ! Singular
+%<pl%>		     ! Plural
+
+
+LEXICON Root
+ki%<clf%>:ki Plur-n ; ! "animal"
+             Plur-ki ; 
+
+LEXICON Stem
+
+sna%<n%>:sna # ; ! "coa"
+ston%<n%>:ston # ; ! "caja"
+sto%<n%>:sto # ; ! "pastor"
+sno%<n%>:sno # ; ! "burro"
+stho%<n%>:stho # ; ! "canoa"
+su%<n%>:su # ; ! "llano"
+xu%<n%>:xu # ; ! "carga"
+së%<n%>:së # ; ! "manojo"
+sa%<n%>:sa # ; ! "cicatriz"
+
+LEXICON Stem2
+tsue%<n%>:tsue #; ! "perro"
+tshon%<n%>:tshon #; !"gallina"
+tson%<n%>:tson #; ! "lagarto"
+tsku%<n%>:tsku #; ! "avispa"
+tsë%<n%>:tsë #; ! "mariposa"
+chi%<n%>:chi #; ! "abeja"
+chon%<n%>:chon #; ! "mosca"
+së%<n%>:së #; ! "sapo"
+xe'%<n%>:xe' #; ! "cotorro"
+chi'%<n%>:chi' #; ! "ratón"
+tsa'%<n%>:tsa' #; ! "tejón"
+s'ohnë%<n%>:s'ohnë #; ! "venado"
+ndiu%<n%>:ndiu #; !"gorgojo"
+s'ondë%<n%>:s'ondë #; !"vaca"
+
+
+LEXICON Plur-n
+
+n%<pl%>:n Stem2 ; ! ""
+
+LEXICON Plur-ki 
+ki%<pl%>:ki Stem ; ! ""
