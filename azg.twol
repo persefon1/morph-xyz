@@ -1,0 +1,19 @@
+Alphabet
+
+a b c d e ë f g h i j k l m n o ó p r s t u v x y z 
+
+%{n%}:n
+%>:0
+
+;
+
+Rules
+
+"Sonorizaci'on ts (t)"
+t:d <=> %{n%}: %>: _ ;
+
+"Sonorizaci'on ts (s)"
+s:0 <=> %{n%}: %>: t:d _ ;
+
+! k i {n} > t s u e
+! k i  n  0 d 0 u e 
