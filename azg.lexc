@@ -6,6 +6,8 @@ Multichar_Symbols
 %<pl%>		     ! Plural
 
 %{n%}
+%{i%}
+
 
 %>
 
@@ -47,4 +49,4 @@ LEXICON Plur-n
 %<pl%>:%{n%}%> Stem2 ; ! ""
 
 LEXICON Plur-ki 
-%<pl%>:ki Stem ; ! ""
+%<pl%>:k%{i%}%> Stem ; ! ""
