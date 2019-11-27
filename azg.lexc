@@ -5,6 +5,9 @@ Multichar_Symbols
 %<sg%>		     ! Singular
 %<pl%>		     ! Plural
 
+%{n%}
+
+%>
 
 LEXICON Root
 ki%<clf%>:ki Plur-n ; ! "animal"
@@ -41,7 +44,7 @@ s'ondë%<n%>:s'ondë #; !"vaca"
 
 LEXICON Plur-n
 
-n%<pl%>:n Stem2 ; ! ""
+%<pl%>:%{n%}%> Stem2 ; ! ""
 
 LEXICON Plur-ki 
-ki%<pl%>:ki Stem ; ! ""
+%<pl%>:ki Stem ; ! ""
