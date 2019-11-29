@@ -20,3 +20,7 @@ azg.mor.twol.hfst: azg.mor.twol
 	
 azg.mor.twol.hfst: azg.mor.twol
 	hfst-twolc azg.mor.twol -o azg.mor.twol.hfst
+
+
+azg.seg.hfst: azg.mor.hfst azg.gen.hfst
+	hfst-compose -1 azg.mor.hfst -2 azg.gen.hfst -o azg.seg.hfst
