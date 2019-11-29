@@ -1,4 +1,4 @@
-all: azg.gen.hfst azg.mor.hfstl
+all: azg.gen.hfst azg.mor.hfstol
 
 azg.lexc.hfst: azg.lexc
 	hfst-lexc $< -o $@
